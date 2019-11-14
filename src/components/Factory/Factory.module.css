@@ -1,0 +1,71 @@
+.buttonStyle{
+    text-align: left;
+    padding: 0px !important;
+    border: 0px;
+    color: #000;
+    background: white !important;
+    width:100%
+}
+
+.buttonStyle:hover{
+    box-shadow: 0 0 0 0rem transparent !important;
+    border: 2px solid #000;
+    border-radius: 0px !important;
+    color: #000 !important;
+    background-color: #fcfcfd !important;
+}
+.buttonStyle:active{
+    box-shadow: 0 0 0 0rem transparent !important;
+    border: 2px solid #000;
+    border-radius: 0px !important;
+    color: #000 !important;
+    background-color: #fcfcfd !important;
+}
+.buttonStyle:focus{
+    box-shadow: 0 0 0 0rem transparent !important;
+    border: 2px solid #000;
+    border-radius: 0px !important;
+    color: #000 !important;
+    background-color: #fcfcfd !important;
+}
+.imageStyle{
+    height: 13px;
+}
+
+.textStyle{
+    display: block;
+    width: 100%;
+    /* height: calc(1.5em + .75rem + 2px); */
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    white-space: pre-wrap;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.questbtn{
+    font-size:0.6rem;
+}
+
+.Low{
+    color:green;
+}
+
+.Moderate{
+    color: #FFA500;
+}
+
+.High{
+    color: red;
+}
+
+.VeryHigh{
+    color:#B22222;
+}
+

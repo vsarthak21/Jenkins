@@ -1,0 +1,49 @@
+.calenderIconHeight{
+height:41px;
+margin-top: -5px;
+}
+
+button, input{
+    padding: 5px !important;
+}
+
+.paddingForBOX{
+    padding: 0rem 1rem 1rem 0rem;
+}
+.imageStyle{
+    height: 13px;
+  }
+.imageAlert{
+    float: right;
+    padding: 1px 0px;
+    margin-top: -6px;
+}
+.marginForText{
+    margin-left: 6%;
+    margin-right: 21%;
+    margin-top: -48px;
+}
+
+.ContainerVertical{
+    background: #ebebe4;
+    opacity: 20;
+    height: 90vh;
+}
+
+.floatRight{
+    float: right;
+    margin-right: 10px
+}
+
+.upperText{
+    margin-top: 40px;
+    margin-bottom: 12px
+}
+
+.lowerText{
+    margin-bottom: 10px;
+}
+
+.italicText{
+    font-style: italic;
+}

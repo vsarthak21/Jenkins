@@ -1,0 +1,80 @@
+.Toolbar{
+    background-color: #e8e8e8;
+    padding: 8px;
+    box-sizing: border-box;
+    margin:0px 0px 0px 15px;
+
+    
+}
+.width{
+  width:100%
+}
+.Icon{
+    margin-left:-15px;
+    text-align: left;
+}
+
+
+.SmartInput {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.Input{
+  padding: 0px 10px;
+}
+
+
+.Label {
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    border:0px solid #ebebe4;
+    font-size: 16px;
+
+  }
+  
+  .Content_Left{
+    text-align: left;
+  }
+
+
+  .ContainerVertical{
+    display: flex;
+    flex-direction: column;
+    background: #e8e7e7;
+
+}
+
+.ContainerRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.AutoSuggest{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.buttonStyle{
+  position: absolute;
+  bottom: 35px;
+  width: 98%;
+}
+
+/* To compensate margin of form-group calss in selectbox*/
+.Toolbar .form-group {
+  margin-bottom: -1rem !important;
+}
+
+.floatRight{
+  float: right;
+  margin-right: 10px
+}
+div > span{
+  z-index: 99999 !important;
+
+}

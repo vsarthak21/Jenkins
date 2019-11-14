@@ -1,0 +1,5 @@
+.ContainerColumn{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+}

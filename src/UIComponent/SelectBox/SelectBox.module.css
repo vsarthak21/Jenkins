@@ -1,0 +1,17 @@
+
+.capitalize{
+   
+    margin-bottom:-1rem;
+    border: 1px solid #a9a9a9;
+    border-radius:0px;
+   
+
+}
+
+.capitalize .row{
+    margin-left: -15px;
+}
+
+.width{
+    width:100%;
+}

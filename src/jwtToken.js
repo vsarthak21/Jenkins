@@ -1,0 +1,3 @@
+export  const token={
+    bearer:"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJnamVlIiwiaWF0IjoxNTYwNDg5ODYzLCJleHAiOjE1NjA0OTU4NjN9.jB-Qwt34gqpep1EA9_OXeE9zuEVAYyKJ1FFRwo30-S_8_L8zxnxexQ1SNfLvBiqdKYY8MLTyP4AdALIMS4uH6Q"
+};

@@ -1,0 +1,84 @@
+.OpportunitySearch{
+   display: flex;
+   flex-direction: column;
+   height: 250px;
+   justify-content: space-around;
+}
+
+.buttonStyle{
+    position: absolute;
+    bottom: 35px;
+    width: 98%;
+  }
+
+.ContainerRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.Row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width:30%;
+}
+.AutoSuggest{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width:50%;
+}
+
+
+.SmartInput {
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.Label{
+  width: 30%;
+}
+
+.input_box{
+  padding: 5px 10px 5px 14px;
+}
+.ortext{
+  padding: 0px 0px 9px 0px;
+  font-family: cursive
+}
+
+.textRight{
+  text-align: right
+}
+
+.textLeft{
+  text-align: left;
+  max-width: 33%;
+}
+#serchpoupe button{
+  width:100%;
+}
+
+.outerDivWidth{
+  max-width: 48%;
+}
+
+.innerRowWidth{
+  max-width: 33%;
+}
+
+.notDisplay{
+  display: none;    
+}
+
+.buttonPanelWidth{
+  max-width: 62%;
+}
+
+label.errorLabel{
+  color: #ff0000;
+  font-size: 12px;
+}

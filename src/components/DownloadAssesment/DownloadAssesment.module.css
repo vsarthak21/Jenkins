@@ -1,0 +1,23 @@
+.buttonStyle{
+    position: absolute;
+    bottom: 35px;
+    width: 98%
+}
+
+.ul{
+    list-style: none;
+    font-weight: 450;
+    line-height: 2;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.Text{
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.floatRight{
+    float: right;
+    margin-right: 10px
+  }

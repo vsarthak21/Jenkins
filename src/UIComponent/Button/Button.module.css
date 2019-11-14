@@ -1,0 +1,38 @@
+.buttonPadding{
+    border-radius: 0;
+     border-color: white; 
+     background-color: #b5b3b3;
+    /* background-color: #b5b3b3 */
+    /* border-color: #007bff; */
+    /* border-color: #007bff; */
+}
+ 
+button:nth-child(2){
+
+    float: right;
+    margin-left: 20px;
+}
+button:nth-child(3){
+    float: right;
+}
+.exitandsaveButtoncss{
+    padding: 5px 30px 5px 30px;
+}
+.nextButton{
+    padding: 5px 30px 5px 30px;
+}
+button:active{
+    color: #ffff !important
+}
+button:focus{
+    color: #ffff !important
+}
+
+.buttonColor1{
+    color: #fff !important;
+    background: #007bff !important;
+  }
+  .buttonColor{
+    color: #000 !important;
+  }
+

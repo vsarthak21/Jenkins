@@ -1,0 +1,38 @@
+
+.btnLink {
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+.ter{
+    transition: transform 1s;
+}
+
+.show{
+    display: block !important;
+}
+
+.card {
+    background-color: #d3d3d3 !important;
+    color: #000;
+    font-weight: 500;
+}
+
+.cardHeader{
+    background-color: #d3d3d3 !important;
+    color: #000;
+    font-weight: 500;
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+
+}
+
+.marginSaveAndNext{
+    margin-right: 20px
+}
+.cardBody {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem 1.25rem 1.25rem 0rem !important;
+}

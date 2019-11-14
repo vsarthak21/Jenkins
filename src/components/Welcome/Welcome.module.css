@@ -1,0 +1,8 @@
+.Welcome{
+    height: 33px;
+    display:flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+    float: right;
+}
+

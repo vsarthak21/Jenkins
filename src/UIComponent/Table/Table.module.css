@@ -1,0 +1,58 @@
+.title {
+    text-align: left;
+    font-size: 1.375rem;
+    font-weight: 440;
+  }
+  
+   .TableStyle {
+    text-align: left;
+    font-size: 17px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+    padding: 2px;
+  }
+
+  .TableStyle td, #students th {
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  th{
+    padding: 5px !important;
+  }
+  
+  .TableStyle tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .TableBody tr:hover {background-color: #ddd;text-decoration: underline; }
+  
+  .TableStyle th {
+    background-color: gray;
+    padding: 5px !important;
+    color: white;
+    border: 1px solid black;
+  }
+
+  .IconStyle:hover {
+    color: #428bca;
+  }
+
+  .fixedHeader tr {
+    position: relative;
+  }
+
+  /*.fixed_header {
+    display:block;
+    overflow:auto;
+    width:100%;
+  }
+  .fixed_header thead tr{
+    display:block;
+    width:100%;
+  } */
+ 
+
+
+
+
+

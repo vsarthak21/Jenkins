@@ -1,0 +1,51 @@
+.buttonStyle{
+    background-color: #b5b3b3;
+    font-weight: 600;
+    font-size: 20px;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 0px !important;
+}
+
+.Option{
+    background-color: #b5b3b3;
+    font-weight: 600;
+    font-size: 20px;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 0px !important;
+
+}
+
+.rightBoder{
+    border-right: black solid;
+    max-width: 36% !important;
+}
+.textCenter{
+    text-align: center;
+}
+.contenarDat{
+   /* width: 100%;*/
+}
+.lableText{
+    font-weight: 600;
+    font-size:20px 
+}
+
+.heightOfTable{
+    height:60vh; 
+    overflow-y:auto
+}
+
+.Heading{
+    padding-top: 30px;
+    padding-bottom: 76px;
+}
+
+.buttonColor1{
+background: #007bff !important;
+color:white !important;
+}
+.buttonColor{
+color: #000 !important;
+}

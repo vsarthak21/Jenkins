@@ -1,0 +1,12 @@
+
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.TitleBar{
+    justify-content: space-between;
+    /*padding-right: 40px;*/
+    margin-left: inherit
+}
+

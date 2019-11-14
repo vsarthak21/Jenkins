@@ -1,0 +1,29 @@
+
+.rotate {
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  width: 1.5em;
+}
+.rotate div {
+    /*-moz-transform: rotate(-90.0deg);   FF3.5+ */
+   /* -o-transform: rotate(-90.0deg);   Opera 10.5 */
+   /*  -webkit-transform: rotate(-90.0deg);  Saf3.1+, Chrome */
+    filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+
+}
+tbody   td {
+    padding: 2px;
+}
+tbody th{
+    padding: 0px !important;
+}
+thead th{
+    padding: 5px 10px 5px 10px !important
+}
+.header{
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+}
