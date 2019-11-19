@@ -1,0 +1,61 @@
+{
+  "name": "ect_cp",
+  "homepage": ".",
+  "version": "0.56.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@githubprimer/octicons-react": "^8.5.0",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "install": "^0.12.2",
+    "js-file-download": "^0.4.7",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.26",
+    "react": "^16.8.6",
+    "react-app-polyfill": "^1.0.1",
+    "react-autosuggest": "^9.4.3",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-d3-speedometer": "^0.6.1",
+    "react-datepicker": "^2.7.0",
+    "react-dom": "^16.8.6",
+    "react-keyboard-event-handler": "^1.5.1",
+    "react-loading-overlay": "^1.0.1",
+    "react-redux": "^7.0.3",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "react-tooltip-lite": "^1.9.3",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prebuild": "npm run generate-build-version",
+    "prestart": "npm run generate-build-version",
+    "generate-build-version": "node generate-build-version"
+  },
+  "eslintConfig": {
+    "extends": "ect_cp"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 10"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 10"
+    ]
+  }
+}
